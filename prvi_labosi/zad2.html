@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="zad1.html">Obrazac</a>
+        </h1>
+    </header>
+
+    <main>
+        <form>
+            <label for="username">Korisnicko ime: </label><br>
+            <input type="text" placeholder="Unesi Korisnicko ime" maxlength="15"><br>
+            <label for="psw">Lozinka</label><br>
+            <input type="password" placeholder="Unesi lozinku" maxlength="15">
+        </form>
+        <br><br>
+
+        <form>
+            <label for="grade">Izaberi ocjenu: </label><br>
+            <select name="gr" form="gradeform">
+                <option value="1">Nedovoljan</option>
+                <option value="2">Dovoljan</option>
+                <option value="3">Dobar</option>
+                <option value="4">Vrlo dobar</option>
+                <option value="5">Odlican</option>
+                </select>
+        </form>
+        <br><br>
+
+        <form>
+            <label>Komentar</label><br>
+            <textarea rows="7" cols="40" placeholder="Unesite komentar"></textarea>
+        </form>
+
+        <form>
+            <label>Usmena ocjena: </label>
+            <input type="radio" name="btn">
+            <label for="kom">Komunikativan</label>
+
+            <input type="radio" name="btn">
+            <label for="sam">Samostalan</label>
+
+            <input type="radio" name="btn">
+            <label for="rad">RAdisan</label>
+
+            <input type="radio" name="btn">
+            <label for="drugo">Nista od navedenog</label>
+        </form><br>
+
+        <form>
+            <table>
+                <tr>
+                    <th><input type="submit" value="Posalji"></th>
+                    <th><input type="submit" value="Ponisti"></th>
+                </tr>
+            </table>
+        </form>
+    </main>
+</body>
+</html>
