@@ -1,0 +1,17 @@
+﻿.img-header {
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    text-align: center;
+}
+
+table tbody tr:first-child {
+    color: white; 
+}
+
+p:first-of-type {
+    font-size: 24px;
+    color: red;
+}
