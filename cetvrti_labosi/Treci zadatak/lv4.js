@@ -1,4 +1,4 @@
-class Macka{
+class Mačka{
     constructor(ime, boja, dob, spol){
         this.ime = ime;
         this.boja = boja;
