@@ -1,0 +1,18 @@
+[
+    {
+       "ime":"Marko",
+       "godina":21,
+       "redStudent":true,
+       "najdraziKolegiji":[
+          "Fizika",
+          "Web",
+          "Matematika"
+       ]
+    },
+    {
+       "ime":"Ime",
+       "godina":21,
+       "redStudent":"fase",
+       "najdraziKolegiji": null
+    }
+ ]
